@@ -2,6 +2,8 @@
 
 A lightweight Chrome Web Extension that improves your writing focus by hiding automated inline text predictions and suggestions while you type in Outlook on the web.
 
+### Privacy Policy Below ###
+
 ## Features
 * **Zero Distractions:** Disables the grey ghost-text inline predictions in the compose windows.
 * **100% Private:** Operates entirely locally. No tracking, no analytical scripts, and no external servers.

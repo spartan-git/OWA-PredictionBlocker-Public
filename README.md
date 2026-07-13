@@ -51,30 +51,79 @@ This extension requests access strictly to target Outlook mail portals via isola
 
 ---
 
-## Privacy Policy
+# Privacy Policy
 
 **Effective Date:** July 7, 2026
 
-### 1. Overview
-The **Outlook OWA Text Prediction Blocker** extension values and respects user privacy. This Privacy Policy outlines how our software interacts with data while you utilize the tool.
+## 1. Overview
 
-### 2. Data Collection and Transmission
-* **Zero Data Collection:** We do not collect, store, track, transmit, or monetize any personal information, browsing history, or user communications.
-* **Local Processing:** All code executes strictly and locally within your client browser instance. 
-* **No Remote Telemetry:** The extension does not configure or maintain external server infrastructures, tracking pixels, or third-party analytical frameworks.
+Outlook OWA Text Prediction Blocker is a browser extension designed to hide Outlook Web App text prediction and suggestion interfaces while composing email.
 
-### 3. Functional Data Use
-The extension injects a CSS stylesheet and a localized JavaScript payload exclusively into authorized `https://cloud.microsoft*` domains. It scans elements inside your active viewport for the sole purpose of hiding automated predictive elements inside text input fields. 
+The extension operates entirely within the user's browser and does not collect, store, or transmit user data.
 
-### 4. Third-Party Sharing
-Because no user metrics, behavioral profiles, or data packets are harvested or cached, no information is ever shared with or sold to third-party entities.
+## 2. Data Collection
 
-### 5. Policy Updates
-We reserve the right to modify this policy to align with future web standard revisions or browser manifest alterations. Updated policies will be documented transparently directly within this file.
+Outlook OWA Text Prediction Blocker does not collect, store, transmit, share, sell, or otherwise process personal information.
 
-### 6. Contact Support
-For code inquiries, open repository issues, or questions regarding this statement, please reach out via GitHub Issues or contact the developer directly at: **IT@spartancapitalgroup.com**
+The extension does not collect:
 
+- Personal information
+- Email content
+- Email addresses
+- Recipient information
+- Authentication credentials
+- Browsing history
+- Location information
+- Analytics data
+- User activity data
+
+## 3. How the Extension Works
+
+The extension runs only on Outlook Web App pages matching:
+
+`https://outlook.cloud.microsoft/mail/*`
+
+To perform its functionality, the extension injects local CSS and JavaScript files into supported Outlook Web App pages.
+
+These files identify, hide, or remove Outlook text prediction and suggestion interface elements. All processing occurs locally within the browser and is performed solely to prevent predictive text suggestions from being displayed.
+
+The extension does not:
+
+- Read email content
+- Analyze typed text
+- Record keystrokes
+- Store communications
+- Monitor browsing activity
+- Transmit information to external services
+
+## 4. Data Storage and Transmission
+
+All processing occurs locally within the user's browser.
+
+The extension:
+
+- Does not use remote servers
+- Does not use cloud services
+- Does not use analytics platforms
+- Does not use advertising networks
+- Does not transmit user data
+
+No user data leaves the user's device.
+
+## 5. Third-Party Sharing
+
+Because the extension does not collect or store user data, no user information is shared, sold, transferred, or disclosed to third parties.
+
+## 6. Changes to This Privacy Policy
+
+This Privacy Policy may be updated to reflect future changes to the extension or browser platform requirements. Any updates will be published with the extension listing or privacy policy page.
+
+## 7. Contact
+
+For questions regarding this Privacy Policy or the extension, please contact:
+
+**Spartan Capital Group**  
+**IT@spartancapitalgroup.com**
 ---
 
 ## License
